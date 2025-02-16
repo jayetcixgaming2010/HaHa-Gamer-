@@ -35,10 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Script Hunter bouty-Blox Fruit"})
      local Tab4o = MakeTab({Name = "Script Find Fruit-Blox Fruit"})
      local Tab5o = MakeTab({Name = "Script Auto Gạt Cần-Blox Fruit"})
-     local Tab6o = MakeTab({Name = "Script Gamer Fisch"})
-     local Tab7o = MakeTab({Name = "Script Gamer Blade Ball"})
-     local Tab8o = MakeTab({Name = "Script Gamer King Legacy"})
-     local Tab9o = MakeTab({Name = "Script Lấy UGC"})
+
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -373,124 +370,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NHMdz/BloxFruit/main/
      Name = "Andeptrai Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkMuscles/Games/Roblox/Bloxfruits/AnDepZaiHub.lua", true))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "Ronix Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed19f1e04d7e833589273753c5b897f7.lua"))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "Speed Hub X",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))(
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "MERCURY Hub",
-    Callback = function()
-script_key = "PASTE_KEY_HERE"
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c019f214a19894b50f0b8e817b70d25f.lua"))()
--- Get Key : https://ads.luarmor.net/get_key?for=Freemium_Lootlab-kEoSDagzdKuv
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "ALCHEMY Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "NATIVE Hub",
-    Callback = function()
-script_key="PASTE_KEY_HERE";
-(loadstring or load)(game:HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "LYTH Hub",
-    Callback = function()
-script_key = 'PASTE_KEY_HERE';
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d474a99b9800aaa6301496c9ce9834ce.lua"))()
--- Get Key : https://ads.luarmor.net/get_key?for=Lootlabs-sMlFsCxnhkOc
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "Raito Hub No Key",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script"))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "Kncrypt Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Fisch.lua"))({true})
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Ronix Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d3174641622d317f9e234797acb.lua"))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Lunar Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Akirascripts/Lunar/refs/heads/main/LuanrOnTop"))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Xera Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/BladeBallXera/main/XeraUltron"))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "REDz Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))() 
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Alchemy Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))() 
-  end
-  })
-
-    AddButton(Tab8o, {
-     Name = "Tsuo Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy"))()
-  end
-  })
-
-    AddButton(Tab8o, {
-     Name = "Arc Hub",
-    Callback = function()
-getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
-  end
-  })
-
-    AddButton(Tab8o, {
-     Name = "Zee Hub",
-    Callback = function()
-loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))() 
   end
   })
 
