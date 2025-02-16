@@ -431,30 +431,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/refs
   })
 
     AddButton(Tab6o, {
-     Name = "Ather Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))() 
-  end
-  })
-
-    AddButton(Tab6o, {
      Name = "Kncrypt Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Fisch.lua"))({true})
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "Naoki Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://naokihub.vercel.app",true))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Blade Ball Pack Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/pid4k/scripts/main/BeanzHub.lua", true))()
   end
   })
 
@@ -462,36 +441,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/pid4k/scripts/main/Be
      Name = "Ronix Hub",
     Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d3174641622d317f9e234797acb.lua"))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Frost Ware Hub",
-    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua'))()
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Blade Ball Roblox r4mpage Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/4R4mpageHub/refs/heads/main/FixedAntiCheat.lua"))();
-  end
-  })
-
-    AddButton(Tab7o, {
-     Name = "Pastebin Frostware Hub",
-    Callback = function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "Note!",
-Text = "This script takes 10 seconds to load and may lag when loading", 
-
-Button1 = "Yes",
-Button2 = "Cancel",
-Duration = 30 
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware-/refs/heads/main/Bypass.lua"))()
   end
   })
 
@@ -545,23 +494,3 @@ loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))() 
   end
   })
 
-    AddButton(Tab8o, {
-     Name = "Hulk Hub",
-    Callback = function()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua")() 
-  end
-  })
-
-    AddButton(Tab8o, {
-     Name = "BT Project Hub",
-    Callback = function()
-loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
-  end
-  })
-
-    AddButton(Tab8o, {
-     Name = "Philippine Hub",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PrintH3lloW0rld/Philippine-hub/main/Philippine%20Hub%201.0"))()
-  end
-  })
